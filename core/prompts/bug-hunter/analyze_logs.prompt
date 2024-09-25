@@ -1,0 +1,41 @@
+You are analyzing logs to identify and fix a software bug.
+
+Below are the collected logs:
+
+**Backend Logs:**
+```
+{{ backend_logs }}
+```
+
+**Frontend Logs:**
+```
+{{ frontend_logs }}
+```
+
+Based on the logs provided, please do the following:
+
+1. **Identify Errors and Issues:**
+   - Analyze the logs to find any errors, exceptions, warnings, or suspicious behavior that could be related to the reported bug.
+   - Note any patterns or recurring issues that might indicate the root cause.
+
+2. **Determine Root Cause:**
+   - Based on the identified issues, deduce the most probable root cause of the bug.
+   - Consider the context provided in previous interactions and any known issues.
+
+3. **Provide Fix Instructions:**
+   - Outline detailed, step-by-step instructions on how to fix the identified problem.
+   - Reference specific code snippets, files, or functions where changes need to be made.
+   - If applicable, suggest best practices or alternative approaches to prevent similar issues in the future.
+
+4. **Request Additional Information (If Necessary):**
+   - If the logs are insufficient to diagnose the problem fully, specify exactly what additional information or logs are needed.
+   - Provide guidance on how to obtain the required information.
+
+**Important Guidelines:**
+
+- Be concise and focus on actionable steps.
+- Use clear and professional language suitable for developers.
+- Do not include any irrelevant information or personal opinions.
+- Ensure that the proposed solution aligns with the project's overall architecture and coding standards.
+
+Remember, your goal is to help identify and fix the bug efficiently by analyzing the provided logs and offering precise guidance.
